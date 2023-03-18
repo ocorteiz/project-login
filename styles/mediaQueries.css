@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/* 
+
+TABELA DE DEVICE BREAKPOINT:
+
+CELULAR: 360Px ATÉ 768Px
+TABLETS: 768Px ATÉ 992Px
+DESKTOPS: 992Px ATÉ 1920Px
+TV: 1920Px ACIMA
+
+RESOLUÇÃO DO WIDTH
+
+*/
+
+@media screen and (min-width:768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to bottom, darkmagenta, rgb(48, 1, 48));
+    }
+
+    section#login {
+        width: 80vw;
+        height: 35vh;
+    }
+
+    div#image {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    div#form {
+        float: right;
+        width: 70%;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to bottom, darkmagenta, rgb(48, 1, 48));
+    }
+    
+    section#login {
+        width: 950px;
+        height: 50vh;
+    }
+
+    div#image {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    div#form {
+        float: right;
+        width: 50%;
+    }
+}

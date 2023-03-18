@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: darkmagenta;
+
+    
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+section#login {
+    background-color: white;
+    width: 300px;
+    height: 530px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.755);
+    overflow: hidden;
+    transition: 0.1s 0.1s;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+div#image {
+    height: 200px;
+    background-image: url(../image/image.jpg);
+    background-size: cover;
+}
+
+div#form {
+    padding: 10px;
+}
+
+div#form h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#form p {
+    font-size: 1.2em;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.campo {
+    padding: 5px;
+    margin: 5px 0px;
+    background-color: darkmagenta;
+    border: 2px solid darkmagenta;
+    border-radius: 5px;
+
+    position: relative;
+}
+
+.campo input {
+    padding: 11px;
+    float: right;
+    border-radius: 5px;
+    width: calc(100% - 35px);
+    border: none;
+
+    position: absolute;
+    top: 0px;
+    left: 35px;
+}
+
+.campo label {
+    display: none;
+}
+
+.cadastrar {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(89, 1, 89);
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.cadastrar:hover {
+    background-color: darkmagenta;
+}
+
+.reset {
+    display: block;
+    width: 100%;
+    margin-top: 7px;
+    border: none;
+    border-radius: 5px;
+    color: darkmagenta;
+    font-size: 1.1em;
+    text-align: center;
+}
