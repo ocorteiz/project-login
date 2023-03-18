@@ -15,7 +15,7 @@ RESOLUÇÃO DO WIDTH
 
 @media screen and (min-width:768px) and (max-width: 992px) {
     body {
-        background-image: linear-gradient(to bottom, darkmagenta, rgb(48, 1, 48));
+        background-image: linear-gradient(to bottom, rgb(90, 0, 90), rgb(48, 1, 48));
     }
 
     section#login {
@@ -38,7 +38,7 @@ RESOLUÇÃO DO WIDTH
 
 @media screen and (min-width: 992px) {
     body {
-        background-image: linear-gradient(to bottom, darkmagenta, rgb(48, 1, 48));
+        background-image: linear-gradient(to bottom, rgb(90, 0, 90), rgb(48, 1, 48));
     }
     
     section#login {
